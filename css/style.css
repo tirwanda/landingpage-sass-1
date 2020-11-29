@@ -1,3 +1,9 @@
+.center-block, .b-video-img, .gear-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   font-family: "Roboto Slab", serif;
   font-size: 1rem;
@@ -94,6 +100,12 @@ body {
   text-align: center;
 }
 
+.about-container {
+  background-color: #f6f5f5;
+  padding: 70px 0;
+  min-height: 540px;
+}
+
 .home-title {
   font-size: 40px;
   font-weight: 700;
@@ -129,6 +141,55 @@ body {
 
 .b-card .b-video {
   margin: 0 auto 15px;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin: 0 0 30px;
+  color: #212630;
+}
+
+.about-text {
+  margin: 0 0 50px;
+  color: #363e4e;
+  letter-spacing: -.025em;
+}
+
+#page-footer {
+  clear: both;
+  background-color: #212630;
+  padding: 25px 0 40px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-container {
+  padding: 0 10%;
+}
+
+.footer-container .lego-footer {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #fffcfc;
+}
+
+.footer-container .lego-footer .footer-wrapper {
+  display: inline-block;
+  padding: 20px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.footer-link {
+  margin-right: 30px;
+  color: #fffcfc;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #cd483D;
 }
 
 .nav-header {
