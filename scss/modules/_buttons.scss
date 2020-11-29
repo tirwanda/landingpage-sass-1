@@ -1,0 +1,35 @@
+.btn {
+    display: inline-block;
+    font-weight: $font-weight-normal;
+    line-height: $base-line-height;
+    text-align: center;
+    font-size: $font-base;
+    vertical-align: middle;
+    border: $border-width solid transparent;
+    transition: $btn-transition;
+    border-radius: $border-radius;
+    @include btn-sizing($btn-padding-x, $btn-padding-y, $font-base, $border-radius);
+}
+
+.buy-btn-lg {
+    @include btn-sizing(12px, 35px, $font-large, 30px);
+    width: 100%;
+    @include btn-variant(white, $btn-primary-bg, $brand-primary);
+}
+
+.buy-btn-md {
+    @include btn-sizing(10px, 30px, $font-base, 30px);
+    @include btn-variant(white, $btn-primary-bg, $brand-primary);
+}
+
+.btn-dark {
+    @include btn-variant($btn-main-color, lighten($btn-dark-bg, 40%), $btn-border-dark);
+}
+
+.btn-primary {
+    @include btn-variant($btn-main-color, $btn-primary-bg, $btn-border-primary);
+}
+
+.btn-third {
+    @include btn-variant($btn-main-color, $btn-third-bg, $btn-border-third);
+}

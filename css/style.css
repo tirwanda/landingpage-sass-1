@@ -187,4 +187,92 @@ body {
   display: inline-block;
   margin: 0 30px 40px;
 }
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  font-size: 1rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  -webkit-transition: all, 0.2s, ease-in-out;
+  transition: all, 0.2s, ease-in-out;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.buy-btn-lg {
+  padding: 12px 35px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  width: 100%;
+  color: white;
+  background-color: #cd483D;
+  border-color: #cd483D;
+  cursor: pointer;
+}
+
+.buy-btn-lg:hover {
+  color: white;
+  background-color: #ab362c;
+  border-color: #ab362c;
+}
+
+.buy-btn-md {
+  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: 30px;
+  color: white;
+  background-color: #cd483D;
+  border-color: #cd483D;
+  cursor: pointer;
+}
+
+.buy-btn-md:hover {
+  color: white;
+  background-color: #ab362c;
+  border-color: #ab362c;
+}
+
+.btn-dark {
+  color: #f6f5f5;
+  background-color: #7a88a3;
+  border-color: #212630;
+  cursor: pointer;
+}
+
+.btn-dark:hover {
+  color: #f6f5f5;
+  background-color: #5f6e8b;
+  border-color: #0c0e12;
+}
+
+.btn-primary {
+  color: #f6f5f5;
+  background-color: #cd483D;
+  border-color: #cd483D;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: #f6f5f5;
+  background-color: #ab362c;
+  border-color: #ab362c;
+}
+
+.btn-third {
+  color: #f6f5f5;
+  background-color: #cd4b3c;
+  border-color: #cd4b3c;
+  cursor: pointer;
+}
+
+.btn-third:hover {
+  color: #f6f5f5;
+  background-color: #aa392c;
+  border-color: #aa392c;
+}
 /*# sourceMappingURL=style.css.map */
